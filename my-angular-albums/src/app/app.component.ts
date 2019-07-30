@@ -6,9 +6,10 @@ import { Album } from "./albums/album.model";
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+// tslint:disable-next-line: one-line
 export class AppComponent implements OnInit{
     title = 'Project Angular(07/2019): ';
-  name = 'Chuck albums';
+  name = "Chuck's albums";
   albumsArray: Album[];
  ngOnInit(): void {
     this.albumsArray = [
