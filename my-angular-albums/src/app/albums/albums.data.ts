@@ -1413,5 +1413,40 @@ export const ALBUMS: Album[] = [
         length: "3:58"
       }
     ]
+  },
+  {
+    id: 16,
+    artist: "KISS",
+    albumName: "Destroyer",
+    onSale: false,
+    currency: "USD",
+    price: 13.99,
+    year: 2007,
+    releaseDate: "March 15, 1976",
+    recordingLocation: "House Of Loud, Elmwood Park, NJ",
+    genre: "Classic Rock, Glam Rock",
+    duration: "38:47:00",
+    url: "https://www.allmusic.com/album/destroyer-mw0000190665",
+    tracks: [
+      {
+        id: 16,
+        trackNumber: 1,
+        title: "Detroit Rock City",
+        length: "3:48"
+      },
+      {
+        id: 16,
+        trackNumber: 2,
+        title: "Thats What You Get",
+        length: "3:40"
+      },
+      {
+        id: 16,
+        trackNumber: 3,
+        title: "Hallelujah",
+        length: "3:23"
+      }
+
+    ]
   }
 ];
