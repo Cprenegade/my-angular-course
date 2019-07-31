@@ -11,8 +11,11 @@ export class AppComponent implements OnInit{
     title = 'Project Angular(07/2019): ';
   name = "Chuck's albums";
   albumsArray: Album[];
+  titleCounter = 1;
  ngOnInit(): void {
-    this.albumsArray = [
+  const interval = setInterval(() => this.titleCounter++, 2000);
+  setTimeout(() => clearInterval(interval), 6000);
+  this.albumsArray = [
       {
         id: 1,
         artist: "Tremonti",
