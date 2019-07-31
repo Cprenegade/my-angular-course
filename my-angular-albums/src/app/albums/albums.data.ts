@@ -1420,33 +1420,68 @@ export const ALBUMS: Album[] = [
     albumName: "Destroyer",
     onSale: false,
     currency: "USD",
-    price: 13.99,
+    price: 11.99,
     year: 2007,
     releaseDate: "March 15, 1976",
-    recordingLocation: "House Of Loud, Elmwood Park, NJ",
-    genre: "Classic Rock, Glam Rock",
-    duration: "38:47:00",
+    recordingLocation: "Electric Ladyland Studios",
+    genre: "Rock",
+    duration: "34:03:00",
     url: "https://www.allmusic.com/album/destroyer-mw0000190665",
     tracks: [
       {
         id: 16,
         trackNumber: 1,
         title: "Detroit Rock City",
-        length: "3:48"
+        length: "5:17"
       },
       {
         id: 16,
         trackNumber: 2,
-        title: "Thats What You Get",
-        length: "3:40"
+        title: "King of The Night Time World",
+        length: "3:21"
       },
       {
         id: 16,
         trackNumber: 3,
-        title: "Hallelujah",
-        length: "3:23"
+        title: "God Of Thunder",
+        length: "4:1723"
+      },
+      {
+        id: 16,
+        trackNumber: 4,
+        title: "Great Expectations",
+        length: "4:24"
+      },
+      {
+        id: 16,
+        trackNumber: 5,
+        title: "Flaming Youth",
+        length: "3:00"
+      },
+      {
+        id: 16,
+        trackNumber: 6,
+        title: "Sweet Pain",
+        length: "3:21"
+      },
+      {
+        id: 16,
+        trackNumber: 7,
+        title: "Shout It Out Loud",
+        length: "2:58"
+      },
+      {
+        id: 16,
+        trackNumber: 8,
+        title: "Beth",
+        length: "2:49"
+      },
+      {
+        id: 16,
+        trackNumber: 9,
+        title: "Do You Love Me",
+        length: "3:40"
       }
-
     ]
   }
 ];
