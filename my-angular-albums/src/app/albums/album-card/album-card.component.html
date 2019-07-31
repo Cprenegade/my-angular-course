@@ -1,5 +1,6 @@
 <!-- <p>album-card works!</p> -->
 <div class="card">
+        <div class="card-body" [ngStyle]="{ 'background-color': album.onSale ? '#93df93' : '' }">
   <div class="inner">
     <img
       class="card-img-top cover"
@@ -7,6 +8,11 @@
       alt="album.cover"
       style="border: 1px solid grey"
     />
+    <img
+  *ngIf="album.onSale"
+  src="assets/img/sale.png"
+  style="width:40px;height:40px;"
+/>
   </div>
   <div>
     <h5 class="card-title">{{ album.artist }}</h5>
@@ -21,4 +27,5 @@
       See Details
     </button>
   </div>
+</div>
 </div>
