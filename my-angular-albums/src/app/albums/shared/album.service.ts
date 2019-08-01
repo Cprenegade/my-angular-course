@@ -4,7 +4,6 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Album } from '../album.model';
 
-import { ALBUMS } from "../albums.data";
 
 @Injectable({
   providedIn: "root"
