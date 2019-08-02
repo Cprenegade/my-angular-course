@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { AlbumDetailsComponent } from './albums/album-details/album-details.component';
+import { AddAlbumComponent } from './albums/add-album/add-album.component';
 
 
 
@@ -21,7 +22,8 @@ import { AlbumDetailsComponent } from './albums/album-details/album-details.comp
     AboutComponent,
     NavbarComponent,
     NotfoundComponent,
-    AlbumDetailsComponent
+    AlbumDetailsComponent,
+    AddAlbumComponent
   ],
   imports: [
     BrowserModule,
